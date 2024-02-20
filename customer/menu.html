@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <style>
+    .menu{
+        display: flex;
+        justify-content: space-around;
+        background-color: cadetblue;
+        padding: 10px;    
+    }
+    a{
+        text-decoration: none;
+    }
+   </style>
+   <link href="../assets/style.css" rel="stylesheet">
+</head>
+<body>
+
+    
+    <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+        <div class="container">
+            <a class="navbar-brand" href="../shared/home.html">Furni<span>.</span></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsFurni">
+                <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../shared/home.html">Home</a>
+                    </li>
+                    
+                    <li><a class="nav-link" href="../shared/about.html">About us</a></li>
+                    <li><a class="nav-link" href="../shared/services.html">Services</a></li>
+                    
+                </ul>
+
+                <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+                    <li><a class="nav-link" href="viewcart.php"><img src="../images/cart.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+            
+    </nav>
+    <!-- <div class="menu">
+        <a href="home.php"><button>View Products</button></a>
+        <a href="viewcart.php"><button>View Cart</button></a>
+        <a href="createorder.php"><button>View Orders</button>
+    </div> -->
+</body>
+</html>
